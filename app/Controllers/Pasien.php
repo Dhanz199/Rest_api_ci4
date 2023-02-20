@@ -4,9 +4,9 @@ namespace App\Controllers;
 
 use CodeIgniter\RESTful\ResourceController;
 
-class Posts extends ResourceController
+class Pasien extends ResourceController
 {
-	protected $modelName = 'App\Models\PostModel';
+	protected $modelName = 'App\Models\PasienModel';
     protected $format = 'json';
 
 	public function index()
